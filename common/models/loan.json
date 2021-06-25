@@ -1,0 +1,42 @@
+{
+  "name": "loan",
+  "plural": "loans",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "progress": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "id": {
+      "type": "number"
+    },
+    "days": {
+      "type": "number"
+    },
+    "due_date": {
+      "type": "date"
+    },
+    "navigation": {
+      "type": "string"
+    },
+    "baseurl": {
+      "type": "string"
+    },
+    "checkcondition": {
+      "type": "string"
+    },
+    "checkedinvoiceId": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

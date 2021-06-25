@@ -1,0 +1,38 @@
+{
+  "name": "loanPaid",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "progress": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "id": {
+      "type": "number"
+    },
+    "number": {
+      "type": "number"
+    },
+    "days": {
+      "type": "number"
+    },
+    "due_date": {
+      "type": "date"
+    },
+    "navigation": {
+      "type": "string"
+    },
+    "baseurl": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

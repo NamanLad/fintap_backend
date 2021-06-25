@@ -1,0 +1,49 @@
+{
+  "name": "invoice",
+  "plural": "invoices",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "status": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "number": {
+      "type": "number"
+    },
+    "date": {
+      "type": "date"
+    },
+    "details": {
+      "type": "string"
+    },
+    "retailer_id": {
+      "type": "number"
+    },
+    "distributor_id": {
+      "type": "number"
+    },
+    "product_id": {
+      "type": "number"
+    },
+    "due_date": {
+      "type": "date"
+    },
+    "created_date": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
