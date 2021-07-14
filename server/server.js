@@ -7,8 +7,11 @@
 
 const loopback = require('loopback');
 const boot = require('loopback-boot');
+const logger = require('morgan');
 
 const app = module.exports = loopback();
+
+app.use(logger('dev'))
 
 app.start = function() {
   // start the web server

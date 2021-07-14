@@ -7,31 +7,22 @@
     "validateUpsert": true
   },
   "properties": {
-    "progress": {
-      "type": "string"
-    },
     "amount": {
       "type": "number"
     },
     "id": {
       "type": "number"
     },
-    "days": {
-      "type": "number"
-    },
     "due_date": {
       "type": "date"
     },
-    "navigation": {
-      "type": "string"
+    "created_date": {
+      "type": "date"
     },
-    "baseurl": {
-      "type": "string"
+    "number": {
+      "type": "number"
     },
-    "checkcondition": {
-      "type": "string"
-    },
-    "checkedinvoiceId": {
+    "status": {
       "type": "string"
     }
   },
